@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?xml-model href="JoinerSchema2.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <introductions>Esteemed Friend,</introductions>
+    <paragraph>... I hope you will call  see, if she is now in the city, one of the most interesting cases of
+    escape from slavery that you have ever seen. She was sent from this city yesterday morning
+    consigned to <person>Mr. Johnston.</person> She is from<place> N.C.</place>was brought away by a sea captain. She was
+    sold by her master to the speculators  to avoid being sent away she was hidden for <date>7 years</date>!
+    in a small upper room of a house occupied by colored people  within a hundred yards of her
+    <person>master's</person> <place>house</place>, who did not know she was there. She had not seen her boy, for 7 years till
+    within 3 days of her coming away. She has been shut up so long that she can hardly walk.
+    Another woman was brought away from <place>Delaware</place>, who was found tied to a tree. If <person>Mr.
+        Johnston</person> was the man he ought to be, he would invite you occasionally to see some of these
+        remarkable cases, which are continually passing from <place>Phil.</place> to <place>N.Y.</place> <person>The Vagrant</person> what a queer
+    mistake. The Vigilance Committee of this city are doing a fine business in weakening 
+    delapidating the edifice of slavery. Success to them...
+        <person>Joshua Coffin</person>
+    </paragraph>
+</root>

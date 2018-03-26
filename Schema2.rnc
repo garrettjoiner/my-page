@@ -1,0 +1,13 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+start = root
+root = element root {mixed{introductions?, paragraph?, person?, date?, place?}}
+introductions = element introductions {text}
+paragraph = element paragraph {mixed{(person | place | date)+ }}
+person = element person {female?, text}
+female = attribute female { "1" | "2" | "3" }
+place = element place {text}
+date = element date {day?, text}
+day = attribute day {xsd:date}
+
+

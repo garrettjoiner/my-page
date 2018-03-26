@@ -1,0 +1,28 @@
+# Instructions: 
+# To begin, save this schema file with YOUR NAME in the filename.
+# Correct the schema to make it valid Relax NG code. 
+# Then associate the schema with the XML file to continue correcting it to validate the XML. 
+# There are 9 critical errors in this Relax-NG schema that will make oXygen RED with anger. 
+# Your goal is to make it well-formed and to correct it so that it validates the XML (happy green oXygen for both documents). 
+# **NOTE**: DO NOT change the XML file, except for adding the schema line! 
+# There are four opportunities to improve the schema to make it a more precise and robust validation tool,
+# but these will not cause a formedness or validation error (oXygen will be green even with these errors).
+# The rules with these errors are followed by a hashtag (#).
+# We require you to solve at least two of these errors for the 10 points this exam is worth.
+# The other two, if found, will be worth 1/2 of a bonus point each.
+# Tips: Press control/command plus on the schema so that you can see the format of the rules more clearly, 
+# and use the outline view on the XML document to see where tags sit in the document's hierarchy.
+# When you are finished, upload BOTH the schema and the XML file to Courseweb using the upload point for this exam.
+start = article 
+article = element article {mixed {(head, body)*}} #
+head = element head {mixed {(title | by | date)*}}
+title = element title {mixed {persName*}}
+persName = element persName {candidate*, text} #
+candidate = attribute candidate {"rep"|"dem"|"indep"}
+by = element by {mixed {persName}}
+date = element date {when, text}
+when = attribute when {text} #
+body = element body {p*} #
+p = element p {mixed {(persName | percent)*}}
+percent = element percent {value, text}
+value = attribute value {xsd:integer}

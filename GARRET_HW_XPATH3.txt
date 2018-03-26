@@ -1,0 +1,36 @@
+1.
+a.
+count(//@type)
+b.
+//@type/..
+c.
+//@type/../name() 
+d.
+distinct-values(//@type/../name())
+
+2.
+a.
+//@*
+b.
+//@*/name()
+c.
+distinct-values(//@*/name())
+d.
+//body//parent::*[@*]
+e.
+distinct-values(//body//parent::*[@*]/name())
+f.
+distinct-values(//parent::*[@*]/name())
+
+3.
+a.
+(//p[count(geo[@select="lat"])>1]) [last()]
+b.
+(//p[count(geo[@select="lat"])>2][count(placeName)>1])[1]
+tried [first] until I figured out that that does not exist haha.
+c.
+(//div[@type="book"][2]//p[count(geo[@select="lat"])>1])[last()]
+d.
+(//p[count(geo[@select="lat"])>2][count(placeName)>1])[1]
+e.
+(//p[count(geo[@select="lat"])>2][count(placeName)>1])[1]/placeName/text()

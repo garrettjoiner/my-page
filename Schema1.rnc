@@ -1,0 +1,13 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+
+start = roots
+roots = element roots {ingredients+}
+ingredients = element ingredients {flour?, yeast?, salt?, cider?, water?, text}
+flour = attribute flour {"flour" | "wheatflour" | "ryeflour"}
+yeast = attribute yeast {"yeast"}
+salt = attribute salt {"salt"}
+cider = attribute cider {"cider"}
+water = attribute water {"lukewarm"}
+
+# fixed in class with help.

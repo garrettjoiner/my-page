@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="astronautsFloat.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../DHClass-Hub/Class-Examples/Relax_NG/astronautsFloat/astronautsFloat.rnc" type="application/relax-ng-compact-syntax"?>
 <news>
     <head>
         <headLine>2 Astronauts Float Free in Space, 170 Miles Up</headLine>

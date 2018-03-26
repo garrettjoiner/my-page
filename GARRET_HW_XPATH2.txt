@@ -1,0 +1,33 @@
+1.
+//div[@type="book"][1]//geo[@select="lat"]
+
+The count I got for number one is 42.
+
+2.
+//div[@type="book"][1]//geo[@select="lat"]//parent:: p 
+
+3.
+(//div[@type="book"][3]/div [@type="chapter"][1]/p [geo[@select="lat"]])[1]
+
+line number 18838
+paragraph number 702
+
+4.
+//p[geo[@select="lat"]][geo[@select="lon"]
+
+count([geo[@select="lat"]][geo[@select="lon"])
+
+number:could not find one! UgH
+
+5.
+//p[not(geo[@select="lat"])][geo[@select="lon"]]
+
+4
+
+6.
+//p[geo]/placeName[1]
+(//p[geo]/placeName)[1]
+The difference is that the grouping elements make the program climb the tree different.
+
+
+

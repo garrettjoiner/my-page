@@ -1,0 +1,30 @@
+Garrett Joiner hw XPath exercise 1.
+
+1.
+
+A. The xpath program can find the difference by looking withing the div elements here we can specify what we are looking for.
+//div[@type  = "book"] shows us every book. And if we relace "book" with "chapter" we can see the individual chapters.
+
+B. //div[@type  = "book"]
+
+C. //div[@type  = "chapter"]
+
+D. //div[@type  = "book"][2]/div[@type ="chapter"]
+
+2.
+
+A. /descendant::head
+
+B. /descendant::l
+
+3.
+
+/descendant::ref
+
+4.
+
+A./descendant::head/descendant::placeName
+
+C./descendant::ref/descendant::placeName
+
+D.//div[@type  = "book"][1]/descendant::placeName

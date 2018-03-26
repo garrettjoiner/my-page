@@ -1,0 +1,14 @@
+/* 2018-02-12 ebb This css is designed to demonstrate how to use divs, spans, and css properties like borders and flexboxes to organize a page layout. 
+ * For flexboxes code, see: https://internetingishard.com/html-and-css/flexbox/
+ 
+ * */
+body {
+    background-color: lightblue; color: black; display:flex; justify-content:space-around; align-items: flex-start;
+}
+
+img {flex:1}
+div#poem {flex:2}
+
+span.line{display:block;padding:.5em; border:20px solid red; margin-left:10px}
+/* ebb: try different border properties, like ridge: See https://www.w3schools.com/css/css_border.asp  */
+span.n{display:inline; font-size:smaller;}

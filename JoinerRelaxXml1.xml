@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?xml-model href="Schema2.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    
+    <introductions>My Dear Friend</introductions>
+
+<paragraph>I recieved your kind letter yesterday if silence is expressive of ones deep feeling then in this
+way I must ask you to recieve the emotions of what my heart *and pen* cannot express hoping
+the time is not far distant when we may see each other but I must tell you what I am trying to
+accomplish having seen the notice in the paper of Mrs Stowe intention to visit England I felt
+there would not be much hope of coming before her for some time and I thought if I could get
+her to take <person female="1">Louisa</person> with her she might get interested enough if she could do nothing herself she
+    might help Louisa to do something besides I thought <person female="1"> Louisa</person> would be a very good
+representative of a Southern Slave she has improved much in her studies and I think that she
+has energy enough to do something for the cause she only needs to to be put in the field I told
+my Ideas to Mrs Willis she thought they were good and offered to write Mrs Stowe she wrote
+last Tuesday asking her protection and if she would place her in some Antislavery family
+unless her services could be useful to her which I would perfer myself intending to pay her
+expenses there the letter was directed as yours when it is answered you shall know dear Amy
+since I haveno fear of my name coming before those whom I have lived in dread of I can not
+be happy without trying to be useful in some way I had a kind note from dear Sarah saying that
+she would be in <place>New york</place> on the <date day="0001-01-20"> 20*th*</date> and wished to know our street and number I am going
+    down to see her and<person female="2"> Mrs Bush</person> and if Mrs B do not sail on the <date day="0001-01-20"> 20*th*</date> will you drop me a line to
+    let me know I send an answer to<person female="3">Sarah</person> to day also as she will not be there unless Mrs B sails I
+shall be more than glad to see you all</paragraph>
+</root>
